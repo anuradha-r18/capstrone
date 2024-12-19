@@ -69,3 +69,41 @@ body{
 .container-3 > div{
     width: 20rem;
 }
+
+.para{
+    
+    padding:12vh 0
+}
+
+.para-in{
+    color:white;
+    font-weight :350px;
+    padding-left: 22vw;
+    width:800px;
+    height:286px;
+    font-size:32px
+}
+
+.foot{
+    color:white;
+    display:flex;
+    margin-right:20px;
+    justify-content: space-between;
+}
+.foot-in{
+    display:flex;
+    
+    justify-content: space-between;
+}
+li{
+    list-style-type: none;
+}
+
+.footer{
+    color:white;
+    padding-left:3vw;
+    text-align: center;
+    font-weight: bold;
+    font-size:27px;
+
+}
