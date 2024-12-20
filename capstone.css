@@ -198,11 +198,11 @@ li{
         font-size: 20px;
     }
     .container-2 img {
-        max-width: 100%; /* Ensures images scale well on mobile */
+        max-width: 100%; 
     }
 
     .item img {
-        max-width: 100%; /* Ensures images fit the screen width */
+        max-width: 100%;
     }
 
 }
