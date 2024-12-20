@@ -40,7 +40,7 @@ body{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 .container-2 img{
-    width:93vw;
+    width:100%;
     border-radius:13px;
     
 }
@@ -105,5 +105,104 @@ li{
     text-align: center;
     font-weight: bold;
     font-size:27px;
+
+}
+
+
+@media screen and (max-width: 768px) {
+    .container-1 {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .cont1 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .right {
+        margin: 10px 0;
+        font-size: 20px;
+    }
+
+    .container-2 h1 {
+        font-size: 28px;
+    }
+
+    .para-in {
+        font-size: 1.5rem;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .container-3 {
+        flex-direction: column;
+    }
+
+    .item {
+        width: 90%;
+        margin: 10px 0;
+    }
+
+    .footer {
+        font-size: 24px;
+    }
+    .container-2 img {
+        max-width: 90%; /* Restricts image width for better visibility */
+    }
+
+    .item img {
+        max-width: 90%; /* Makes portfolio item images responsive */
+    }
+}
+
+/* For Mobile */
+@media screen and (max-width: 480px) {
+    .container-1 {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .portfolio {
+        font-size: 28px;
+        margin-bottom: 15px;
+    }
+
+    .right {
+        font-size: 16px;
+        margin: 5px 0;
+    }
+
+    .container-2 h1 {
+        font-size: 24px;
+    }
+
+    .para-in {
+        font-size: 20px;
+        padding-left: 5%;
+        padding-right: 5%;
+        width:300px;
+        height: fit-content;
+    }
+
+    .container-3 {
+        flex-direction: column;
+    }
+
+    .item {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .footer {
+        font-size: 20px;
+    }
+    .container-2 img {
+        max-width: 100%; /* Ensures images scale well on mobile */
+    }
+
+    .item img {
+        max-width: 100%; /* Ensures images fit the screen width */
+    }
 
 }
